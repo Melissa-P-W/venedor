@@ -1,0 +1,290 @@
+/* GENERAL RULES */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h4{
+    color: white;
+    text-transform: capitalize;
+}
+
+a{
+    color: white;
+}
+
+:root {
+    --skinnyTopBg: #f5f4f2;
+    --primaryColor: #14becb;
+    --logoFont: "Roboto Slab", serif;
+    --buttonColor: #e7e7e7;
+}
+  /* CLOSE GEN RULES */
+
+  /* HEADER RULES */
+.skinny-top {
+    background-color: var(--skinnyTopBg);
+    color: gray;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.skinny-top ul {
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+.skinny-top li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.skinny-top p {
+    margin-bottom: 0;
+}
+
+.skinny-top a {
+    color: var(--primaryColor);
+    text-decoration: none;
+}
+
+.skinny-top a:hover {
+    color: gray;
+}
+
+.logoRow {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.logo {
+    font-family: var(--logoFont);
+    font-weight: bolder;
+}
+
+.spanA {
+    color: white;
+    background-color: var(--primaryColor);
+    border-radius: 50%;
+    padding: 5px 20px;
+}
+
+.spanB {
+    color: white;
+    margin-left: -25px;
+}
+
+.spanC {
+    color: var(--primaryColor);
+}
+
+.logoRow button {
+    background-color: var(--buttonColor);
+    border-radius: 0%;
+    color: gray;
+}
+
+.logoRow button:hover {
+    background-color: var(--primaryColor);
+    color: white;
+}
+
+.mainNav li {
+    display: inline;
+    font-weight: bolder;
+    color: darkslategray;
+}
+
+.header input {
+    border: 0.5px solid gray;
+    font-style: italic;
+    border-radius: 0;
+    font-size: 16px;
+}
+
+.new{
+    background-color: var(--primaryColor);
+    color: white;
+    width: 175px;
+    margin-left: 80vh;
+    margin-top: -425px;
+    margin-bottom: 300px;
+    font-size: 75px;
+}
+
+.invited-header{
+    background-color: rgb(73, 73, 75);
+    width: 410px;
+    padding: 10px;
+    margin-left: 80vh;
+    margin-top: -300px;
+    margin-bottom: 280px;
+}
+
+.header-p{
+width: 400px;
+margin-left: 80vh;
+margin-top: -260px;
+margin-bottom: 275px;
+}
+
+.searchButton {
+    background-color: var(--buttonColor);
+    color: darkslategray;
+    border: none;
+}
+
+.shoppingItemsTitle {
+    margin-top: 50px;
+}
+
+.shoppingItemsTitle h2 {
+    border-left: 3px solid var(--primaryColor);
+    font-family: "Oswald";
+    font-size: 42px;
+    color: darkslategray;
+}
+
+hr {
+    width: 875px;
+    margin-top: -20px;
+    margin-right: 10px;
+}
+
+.shoppingItemsTitle button {
+    background-color: var(--skinnyTopBg);
+    color: gray;
+    font-weight: bolder;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+.discount {
+    color: gray;
+    margin-left: 4px;
+}
+
+.rectTag,
+.circleTag {
+    background-color: var(--primaryColor);
+}
+
+.rectTag {
+    width: 50px;
+    color: white;
+    font-size: 18px;
+}
+
+.circleTag {
+    width: 75px;
+    color: white;
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 25px;
+    margin-left: 200px;
+}
+
+.itemName {
+    color: darkslategray;
+    font-size: 18px;
+    font-family: "Oswald";
+}
+
+.shoppingItems button {
+    background-color: #414949;
+    color: white;
+    font-size: 18px;
+    font-family: "Oswald";
+}
+
+.manufactures {
+    margin-top: 50px;
+}
+
+.manufactures h2 {
+    border-left: 3px solid var(--primaryColor);
+    font-family: "Oswald";
+    font-size: 42px;
+    color: darkslategray;
+}
+
+.manufactures hr {
+    width: 780px;
+    margin-top: -20px;
+    margin-right: 20px;
+}
+
+.manufactures button {
+    background-color: var(--skinnyTopBg);
+    color: gray;
+    font-weight: bolder;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+.link-square{
+    color: var(--primaryColor);
+    list-style-type: square;
+}
+
+.social{
+    font-size: 35px;
+    color: white;
+}
+
+.footer{
+    background-color: rgb(63, 63, 63);
+}
+
+.footer-list{
+    text-transform: capitalize;
+}
+
+.copyright{
+    color: white;
+}
+
+.footer{
+    background-color: rgb(68, 75, 82);
+}
+  /* CLOSE HEADER */
+
+  /* MAIN RULES */
+  /* CLOSE MAIN RULES */
+
+  /* FOOTER RULES */
+  /* CLOSE FOOTER RULES */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
